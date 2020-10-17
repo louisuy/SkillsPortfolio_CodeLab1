@@ -12,10 +12,11 @@ int main()
     A = pi * r * r; //Calculation of area: pi*r^2. Note: C++ does not have an exponent operator.
     C = 2 * pi * r; //Calculation of circumference: 2pi*r.
 
+    // Output the area and circumference.
     cout << "The circle of radius " << r << " has an:\n"
         << "Area of: " << A << endl
         << "Circumference of: " << C << endl;
 
     system("pause>0");
-    system("pause>0");
+    return 0;
 }
