@@ -12,7 +12,6 @@ int main()
             cout << "Hey! you weren't supposed to enter 5!";
             break;
         }
-
     }
-    
+    return 0;
 }

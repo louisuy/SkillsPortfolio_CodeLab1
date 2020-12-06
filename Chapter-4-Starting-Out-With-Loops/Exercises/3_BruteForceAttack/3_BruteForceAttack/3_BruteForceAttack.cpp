@@ -7,12 +7,15 @@ int main()
     int userpass;
     cout << "Enter 3-digit passcode: ";
     cin >> userpass;
-    while (userpass != passcode) {
-        cout << "Incorrect passcode.\nEnter 3-digit passcode: ";
-        cin >> userpass;
-        if (userpass == passcode) {
+    while (true) {
+        if (userpass != passcode) {
+            cout << "Incorrect passcode.\nEnter 3-digit passcode: ";
+            cin >> userpass;
+        }
+        else if (userpass == passcode) {
             cout << "Passcode match found!";
             break;
         }
     }
+    return 0;
 }

@@ -14,4 +14,7 @@ int main()
         cin >> age; // Ask for an input once again.
     }
     cout << "You are " << age << " years old.";
+
+    system("pause:>0");
+    return 0;
 }

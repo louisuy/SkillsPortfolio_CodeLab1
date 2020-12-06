@@ -18,7 +18,6 @@ int main()
             break;
         }
         count++;
-
     }
-
+    return 0;
 }
